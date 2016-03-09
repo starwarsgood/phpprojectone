@@ -5,7 +5,7 @@
 </head>
 <body>
 <form action="index.php" name="myform" method="post"> 
-       ¬ведите первое число: <input type="ini_set" name="a" size="10" maxlength="5">
+       ¬ведите первое число: <input type="int_set" name="a" size="10" maxlength="5">
 	   </br>
        ¬ведите второе число: <input type="int_set" name="b" size="10" maxlength="5">
 	   <br>
