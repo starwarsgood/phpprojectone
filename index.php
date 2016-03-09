@@ -4,17 +4,22 @@
 <meta charset="utf-8">
 </head>
 <body>
+<form action="index.php" name="myform" method="post"> 
+       Введите первое число: <input type="ini_set" name="a" size="10" maxlength="5">
+	   </br>
+       Введите второе число: <input type="int_set" name="b" size="10" maxlength="5">
+	   <br>
+<input name="Submit" type=submit value="Узнать сумму"> 
+</form>
 <?php
-$a=7;
-$b=5;
+$a= $_POST['a']; 
+$b=$_POST['b'];
 $result=$a+$b;
-$result1=$a-$b;
+echo "</br>";
+echo "Результат= ".$result;
 
-echo "------------------"."</br>";
-echo "Сложение= ". $result."</br>";
-echo "------------------"."</br>";
-echo "Вычетание= ". $result1."</br>";
-echo "------------------"."</br>";
+//echo "Сложение= ". $result."</br>";
+//echo "------------------"."</br>";
 
 
 
